@@ -20,7 +20,7 @@ defmodule Bamboo.SparkPostAdapter do
   """
 
   @default_base_uri "https://api.sparkpost.com"
-  @send_message_path "/api/v1/transmissions"
+  @send_message_path "/api/v1"
   @behaviour Bamboo.Adapter
 
   defmodule ApiError do
